@@ -160,3 +160,31 @@ La estructura y el contenido de una PDU pueden variar según el protocolo espec�
   Un modelo de referencia, por otro lado, es un marco conceptual más amplio y general que establece una guía para cómo deberían funcionar las redes y cómo se pueden organizar las capas y funciones de la comunicación. Los modelos de referencia no se centran en protocolos individuales, sino en la arquitectura general y las interacciones entre diferentes capas de comunicación. Ayudan a estandarizar la forma en que se diseñan, implementan y gestionan las redes.
 
   El modelo de referencia más conocido y utilizado es el Modelo de Interconexión de Sistemas Abiertos (OSI - Open Systems Interconnection), que consta de siete capas que describen las funciones y responsabilidades en una red. Cada capa se construye sobre la capa inferior y proporciona servicios a la capa superior. Esto es un ejemplo de un modelo de referencia.
+
+9.  Describir la función de cada capa en los dos modelos de red: TCP/IP y OSI.
+
+    Modelo de Referencia OSI:
+
+  - Capa de Aplicación (Application Layer): Proporciona servicios directamente a las aplicaciones y usuarios finales. Aquí residen aplicaciones como navegadores web, clientes de correo electrónico y servicios de transferencia de archivos.
+
+  - Capa de Presentación (Presentation Layer): Se encarga de la representación, conversión y cifrado de los datos para asegurar que sean comprensibles y seguros. También maneja la compresión y la traducción de formatos de datos.
+
+  - Capa de Sesión (Session Layer): Controla el establecimiento, mantenimiento y finalización de las sesiones de comunicación entre dispositivos. Gestiona el control de diálogo y la sincronización.
+
+  - Capa de Transporte (Transport Layer): Proporciona la segmentación y reensamblaje de datos, así como la detección y corrección de errores. Garantiza la entrega fiable y ordenada de datos.
+
+  - Capa de Red (Network Layer): Encargada del enrutamiento de datos a través de la red, controlando cómo los paquetes se envían de un dispositivo a otro. Determina rutas y maneja la conmutación de paquetes.
+
+  - Capa de Enlace de Datos (Data Link Layer): Se ocupa del acceso al medio físico, la detección y corrección de errores y la gestión de flujo. Divide los datos en tramas y controla el acceso al medio compartido.
+
+  - Capa Física (Physical Layer): Se refiere a los aspectos eléctricos, mecánicos y físicos de la transmisión de datos. Define los medios de transmisión y las señales eléctricas utilizadas.
+
+    Modelo de Red TCP/IP:
+
+  - Capa de Aplicación (Application Layer): Similar a la capa de aplicación del modelo OSI, esta capa proporciona servicios de red a las aplicaciones. Aquí se encuentran los protocolos y servicios como HTTP, FTP, SMTP y DNS.
+
+  - Capa de Transporte (Transport Layer): En el modelo TCP/IP, esta capa es responsable de dividir los datos en segmentos y proporcionar servicios de comunicación de extremo a extremo. Incluye TCP (confiable) y UDP (no confiable).
+
+  - Capa de Internet (Internet Layer): Equivalente a la capa de red del modelo OSI, esta capa se encarga del enrutamiento de paquetes y la entrega de datos a través de la red. El protocolo IP es fundamental aquí.
+
+  - Capa de Acceso a la Red (Link Layer o Network Interface Layer): Similar a la capa de enlace de datos del modelo OSI, esta capa se encarga de la comunicación con el hardware y la transmisión de datos a nivel físico. Incluye protocolos como Ethernet y Wi-Fi.
