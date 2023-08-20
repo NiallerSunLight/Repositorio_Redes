@@ -8,3 +8,27 @@ Preguntas de lectura: Capítulo 1
 
     ¿Qué es una red convergente?
   Una red convergente es una infraestructura que combina diferentes tipos de servicios de comunicación, como voz, video y datos, en una sola plataforma o red. Esto permite la transmisión eficiente de múltiples tipos de información a través de una única infraestructura.
+
+2. Describir las características de las arquitecturas de red: tolerante a fallas,
+escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos
+ejemplos.
+
+    Tolerante a Fallas:
+  Una arquitectura de red tolerante a fallas es capaz de mantener la operatividad y la disponibilidad incluso en caso de fallos de hardware, software o enlaces de comunicación. Esto se logra mediante redundancia, recuperación automática y distribución de recursos.
+
+  Ejemplo: Red de malla (Mesh Network). En una red de malla, cada dispositivo está conectado directamente a múltiples otros dispositivos. Si uno de los dispositivos falla, la red todavía puede funcionar ya que la comunicación puede enrutarse a través de otros nodos.
+
+    Escalabilidad:
+  Una arquitectura de red escalable puede crecer o disminuir en tamaño y capacidad de manera eficiente sin comprometer el rendimiento. Esto es importante para acomodar el aumento de dispositivos y tráfico en la red.
+
+  Ejemplo: Arquitectura Cliente-Servidor. Un sistema cliente-servidor permite agregar más servidores según sea necesario para manejar un mayor número de clientes sin afectar la capacidad de respuesta.
+
+    Calidad del Servicio (QoS - Quality of Service):
+  La calidad del servicio se refiere a la capacidad de una red para garantizar un rendimiento predecible y confiable para diferentes tipos de tráfico, priorizando aplicaciones críticas sobre las menos críticas.
+
+  Ejemplo: Redes de Voz sobre IP (VoIP). En una red VoIP, se puede dar prioridad al tráfico de voz sobre otros tipos de datos para garantizar una calidad de llamada adecuada.
+
+    Seguridad:
+  La seguridad en la arquitectura de red implica proteger la información y los recursos de accesos no autorizados, ataques cibernéticos y otros riesgos de seguridad.
+
+  Ejemplo: Red Privada Virtual (VPN). Una VPN crea un túnel seguro en una red pública, lo que permite a los usuarios acceder y transmitir datos de manera segura a través de una conexión encriptada.
