@@ -124,3 +124,12 @@ Preguntas de lectura: Capítulo 2
   - Internet, por otro lado, es la red global de redes interconectadas que abarca todo el mundo. Es una infraestructura masiva que permite la comunicación y el intercambio de información a nivel global.
   - Internet es un caso específico de un internetwork, pero se ha convertido en el término comúnmente utilizado para describir la red global de redes que utilizamos para acceder a sitios web, enviar correos electrónicos, compartir archivos y realizar muchas otras actividades en línea.
   - Está basada en el protocolo TCP/IP y proporciona una amplia gama de servicios y recursos, como la World Wide Web, correo electrónico, streaming de video y más.
+
+4.  Tarjeta de Interfaz de Red (NIC - Network Interface Card):
+  Es un dispositivo de hardware que permite la conexión del dispositivo a la red.
+
+    Puerto Físico:
+  Es el punto físico en un dispositivo donde se conecta un cable o un enchufe.
+
+    Interfaz de Red:
+  Es la configuración lógica que permite que un dispositivo se comunique a través de la red, y puede incluir una o varias NICs con sus respectivas configuraciones.
