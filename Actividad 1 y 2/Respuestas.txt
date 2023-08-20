@@ -9,7 +9,7 @@ Preguntas de lectura: Capítulo 1
     ¿Qué es una red convergente?
   Una red convergente es una infraestructura que combina diferentes tipos de servicios de comunicación, como voz, video y datos, en una sola plataforma o red. Esto permite la transmisión eficiente de múltiples tipos de información a través de una única infraestructura.
 
-2. Describir las características de las arquitecturas de red: tolerante a fallas,
+2.  Describir las características de las arquitecturas de red: tolerante a fallas,
 escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos
 ejemplos.
 
@@ -33,7 +33,7 @@ ejemplos.
 
   Ejemplo: Red Privada Virtual (VPN). Una VPN crea un túnel seguro en una red pública, lo que permite a los usuarios acceder y transmitir datos de manera segura a través de una conexión encriptada.
 
-3. Investigar qué son las redes orientadas y no orientadas a la conexión.
+3.  Investigar qué son las redes orientadas y no orientadas a la conexión.
 
     Redes Orientadas a la Conexión:
   En este tipo de redes, se establece una conexión previa entre los dispositivos antes de que puedan intercambiar datos. Esta conexión se mantiene durante toda la comunicación y se establece un camino de comunicación específico entre los dispositivos involucrados. Se asegura un flujo de datos ordenado y confiable, lo que es particularmente útil para transferencias de datos grandes y críticas.
@@ -41,4 +41,15 @@ ejemplos.
     Redes No Orientadas a la Conexión:
   En estas redes, los dispositivos pueden comenzar a intercambiar datos sin necesidad de establecer una conexión previa. Cada paquete de datos se envía independientemente y puede seguir diferentes rutas hacia su destino. Este enfoque es más eficiente para transferencias de datos pequeñas y en entornos donde la conexión y desconexión frecuente es común.
 
-4.
+4.  Describa que es la calidad del servicio.
+  La calidad del servicio (QoS) se refiere a la capacidad de una red para proporcionar diferentes niveles de prioridad y rendimiento a diferentes tipos de tráfico y aplicaciones. En una red con implementación efectiva de QoS, se garantiza que ciertos flujos de datos tengan un ancho de banda mínimo, latencia controlada y niveles de pérdida de paquetes predefinidos. La QoS permite a una red ofrecer un rendimiento consistente y satisfactorio para aplicaciones críticas, como voz, videoconferencia y datos sensibles al tiempo, mientras administra eficazmente el tráfico menos crítico.
+
+    ¿Por qué importa la calidad del servicio en una red de datos?
+  La importancia que tiene el QoS es porque en el ámbito real las redes están para ofrecer un servicio a cada tipo de usuario, como cada usuario tiene una necesidad diferente y la red debe estar preparada para adaptarse de mejor forma a las necesidades que este presente.
+
+  Algunos puntos en especifico del QoS serian:
+    - Priorización de Aplicaciones Críticas.
+    - Consistencia y Previsibilidad.
+    - Optimización de Recursos.
+    - Cumplimiento de Acuerdos de Nivel de Servicio (SLA).
+    - Mejora de la Experiencia del Usuario.
