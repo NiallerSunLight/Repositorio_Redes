@@ -142,9 +142,7 @@ Preguntas de lectura: Capítulo 2
 
 La estructura y el contenido de una PDU pueden variar según el protocolo específico que se esté utilizando. En un contexto de red, una PDU generalmente incluye información de encabezado, datos y, en algunos casos, información de control. Dependiendo del tipo de protocolo y su función, las PDUs pueden recibir nombres diferentes.
 
-7. Explicar la función de los protocolos en las comunicaciones de redes y para
-qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que
-adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
+7.  Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
 
   - En el protocolo Ethernet: La PDU se conoce como "trama". Contiene la dirección MAC de origen y destino, el tipo de protocolo, los datos y el checksum de verificación.
 
@@ -153,3 +151,12 @@ adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
   - En el protocolo TCP: La PDU se llama "segmento". Contiene la información de encabezado TCP, como los números de secuencia y de confirmación, junto con los datos.
 
   - En el protocolo UDP: La PDU se llama "datagrama". Similar al segmento TCP, contiene la información de encabezado UDP y los datos.
+
+8.  Describir la diferencia entre los modelos de protocolo y modelos de referencia.
+    Modelo de Protocolo:
+  Un modelo de protocolo se centra en los detalles específicos de los protocolos individuales utilizados en una red o sistema de comunicación. Describe cómo se organiza y cómo opera un protocolo en particular. Un modelo de protocolo se enfoca en los aspectos técnicos y funcionales específicos de la comunicación y puede incluir detalles como la estructura de los mensajes, los procedimientos de manejo de errores y la secuencia de intercambio de datos para un protocolo en particular.
+
+    Modelo de Referencia:
+  Un modelo de referencia, por otro lado, es un marco conceptual más amplio y general que establece una guía para cómo deberían funcionar las redes y cómo se pueden organizar las capas y funciones de la comunicación. Los modelos de referencia no se centran en protocolos individuales, sino en la arquitectura general y las interacciones entre diferentes capas de comunicación. Ayudan a estandarizar la forma en que se diseñan, implementan y gestionan las redes.
+
+  El modelo de referencia más conocido y utilizado es el Modelo de Interconexión de Sistemas Abiertos (OSI - Open Systems Interconnection), que consta de siete capas que describen las funciones y responsabilidades en una red. Cada capa se construye sobre la capa inferior y proporciona servicios a la capa superior. Esto es un ejemplo de un modelo de referencia.
