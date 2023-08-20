@@ -1,0 +1,10 @@
+Preguntas de lectura: Capítulo 1
+1.
+    ¿Qué son los datos? 
+  Los datos son representaciones simbólicas de información, que pueden incluir hechos, números, texto, imágenes o cualquier otro contenido que pueda ser procesado o comunicado.
+
+    ¿Qué es una red de datos?
+  Una red de datos es un sistema de interconexión de dispositivos informáticos que permite la transferencia y el intercambio de información digital. Puede ser una red local (LAN) o una red global (como Internet).
+
+    ¿Qué es una red convergente?
+  Una red convergente es una infraestructura que combina diferentes tipos de servicios de comunicación, como voz, video y datos, en una sola plataforma o red. Esto permite la transmisión eficiente de múltiples tipos de información a través de una única infraestructura.
