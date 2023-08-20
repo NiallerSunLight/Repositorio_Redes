@@ -141,3 +141,15 @@ Preguntas de lectura: Capítulo 2
   Una Unidad de Datos del Protocolo (PDU, por sus siglas en inglés) es una unidad de información que se utiliza en los protocolos de comunicación para transmitir datos entre dispositivos en una red. La PDU es una parte fundamental en la transferencia de información a través de una red, ya que define cómo los datos se estructuran y se organizan para su transmisión y recepción.
 
 La estructura y el contenido de una PDU pueden variar según el protocolo específico que se esté utilizando. En un contexto de red, una PDU generalmente incluye información de encabezado, datos y, en algunos casos, información de control. Dependiendo del tipo de protocolo y su función, las PDUs pueden recibir nombres diferentes.
+
+7. Explicar la función de los protocolos en las comunicaciones de redes y para
+qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que
+adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
+
+  - En el protocolo Ethernet: La PDU se conoce como "trama". Contiene la dirección MAC de origen y destino, el tipo de protocolo, los datos y el checksum de verificación.
+
+  - En el protocolo IP: La PDU se llama "paquete". Contiene la dirección IP de origen y destino, la información de encabezado de IP y los datos.
+
+  - En el protocolo TCP: La PDU se llama "segmento". Contiene la información de encabezado TCP, como los números de secuencia y de confirmación, junto con los datos.
+
+  - En el protocolo UDP: La PDU se llama "datagrama". Similar al segmento TCP, contiene la información de encabezado UDP y los datos.
