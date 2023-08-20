@@ -133,3 +133,6 @@ Preguntas de lectura: Capítulo 2
 
     Interfaz de Red:
   Es la configuración lógica que permite que un dispositivo se comunique a través de la red, tambien se podria decir que son puertos especializados de un dispositivo de internetworking que se conecta con redes individuales.
+
+5.  ¿Por qué se dice que un protocolo es independiente de la tecnología?
+  La independencia de los protocolos con la tecnología es esencial para crear un marco común que permita la comunicación efectiva entre dispositivos y sistemas a pesar de las diferencias tecnológicas. Esto promueve la interoperabilidad, la flexibilidad y la adaptabilidad en un entorno en constante cambio.
