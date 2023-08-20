@@ -129,7 +129,7 @@ Preguntas de lectura: Capítulo 2
   Es un dispositivo de hardware que permite la conexión del dispositivo a la red.
 
     Puerto Físico:
-  Es el punto físico en un dispositivo donde se conecta un cable o un enchufe.
+  Es el punto físico en un dispositivo donde se conecta un cable o un enchufe, el cual se conecta con un host o con otro dispositivo de red.
 
     Interfaz de Red:
-  Es la configuración lógica que permite que un dispositivo se comunique a través de la red, y puede incluir una o varias NICs con sus respectivas configuraciones.
+  Es la configuración lógica que permite que un dispositivo se comunique a través de la red, tambien se podria decir que son puertos especializados de un dispositivo de internetworking que se conecta con redes individuales.
