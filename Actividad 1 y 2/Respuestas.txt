@@ -32,3 +32,13 @@ ejemplos.
   La seguridad en la arquitectura de red implica proteger la información y los recursos de accesos no autorizados, ataques cibernéticos y otros riesgos de seguridad.
 
   Ejemplo: Red Privada Virtual (VPN). Una VPN crea un túnel seguro en una red pública, lo que permite a los usuarios acceder y transmitir datos de manera segura a través de una conexión encriptada.
+
+3. Investigar qué son las redes orientadas y no orientadas a la conexión.
+
+    Redes Orientadas a la Conexión:
+  En este tipo de redes, se establece una conexión previa entre los dispositivos antes de que puedan intercambiar datos. Esta conexión se mantiene durante toda la comunicación y se establece un camino de comunicación específico entre los dispositivos involucrados. Se asegura un flujo de datos ordenado y confiable, lo que es particularmente útil para transferencias de datos grandes y críticas.
+
+    Redes No Orientadas a la Conexión:
+  En estas redes, los dispositivos pueden comenzar a intercambiar datos sin necesidad de establecer una conexión previa. Cada paquete de datos se envía independientemente y puede seguir diferentes rutas hacia su destino. Este enfoque es más eficiente para transferencias de datos pequeñas y en entornos donde la conexión y desconexión frecuente es común.
+
+4.
