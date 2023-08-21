@@ -127,10 +127,24 @@ Preguntas de lectura: Capítulo 2
 La estructura y el contenido de una PDU pueden variar según el protocolo específico que se esté utilizando. En un contexto de red, una PDU generalmente incluye información de encabezado, datos y, en algunos casos, información de control. Dependiendo del tipo de protocolo y su función, las PDUs pueden recibir nombres diferentes.
 
 7.  Explicar la función de los protocolos en las comunicaciones de redes y para qué es el proceso de encapsulamiento de los datos (ilustrar el nombre que adopta cada PDU en cada capa del modelo TCP/IP mediante un dibujo).
-  - En el protocolo Ethernet: La PDU se conoce como "trama". Contiene la dirección MAC de origen y destino, el tipo de protocolo, los datos y el checksum de verificación.
-  - En el protocolo IP: La PDU se llama "paquete". Contiene la dirección IP de origen y destino, la información de encabezado de IP y los datos.
-  - En el protocolo TCP: La PDU se llama "segmento". Contiene la información de encabezado TCP, como los números de secuencia y de confirmación, junto con los datos.
-  - En el protocolo UDP: La PDU se llama "datagrama". Similar al segmento TCP, contiene la información de encabezado UDP y los datos.
+    Función de los Protocolos en las Comunicaciones de Redes:
+  Los protocolos en las comunicaciones de redes son conjuntos de reglas y estándares que definen cómo los dispositivos se comunican entre sí. Estos protocolos establecen las pautas para la estructura, el formato y el intercambio de datos entre los dispositivos en una red. Los protocolos aseguran que los datos se transmitan y reciban correctamente, regulan la comunicación y permiten la interoperabilidad entre dispositivos y sistemas de diferentes fabricantes y tecnologías.
+
+    Proceso de Encapsulamiento de los Datos:
+  El proceso de encapsulamiento de los datos se refiere a cómo los datos se empaquetan en capas sucesivas a medida que viajan a través de una red. Cada capa agrega su propio encabezado, que contiene información necesaria para guiar y controlar la comunicación en esa capa. A medida que los datos descienden a través de las capas en el remitente, cada capa añade su encabezado y se refiere al paquete completo como Unidad de Datos del Protocolo (PDU).
+
+    PDU en cada capa de TCP/IP
++-----------------------------------------------------+
+|       Aplicación      |       Aplicación Data       |
++-----------------------+-----------------------------+
+|      Transporte       |      Segment (TCP)          |
++-----------------------+-----------------------------+
+|       Internet        |      Datagrama (IP)         |
++-----------------------+-----------------------------+
+| Acceso a la Red (Enlace)|      Trama (Ethernet)     |
++-----------------------+-----------------------------+
+|   Capa Física (Físico) |      Bits Transmitidos     |
++-----------------------+-----------------------------+
 
 8.  Describir la diferencia entre los modelos de protocolo y modelos de referencia.
     Modelo de Protocolo:
